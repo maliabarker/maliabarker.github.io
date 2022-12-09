@@ -2,19 +2,22 @@
 
 ### I'm Malia Barker, 
 
-A senior at Dominican University of California, pursuing a bachelor’s degree in Software Engineering.
+I am a senior at Dominican University of California, currently pursuing a bachelor’s degree in Applied Computer Science and aspiring to pursue a PhD in Astronomy/Astrophysics.
 
 ## Things that I'm currently working on: 
-* Completeing an internship with NASA to create and analyze model chromospheres of M type stars and create a website to accurately search extreme ultraviolet spectra of stars.
-* Doing bachelor's degree in Software Engineering
-* Pursuing interests in physics, astronomy, and the intersection of machine learning and computer science between all topics of study. 
+* Contracting work for NASA to continue work & research I completed as an intern under my mentor Dr. Sarah Peacock.
+* Bachelor's degree in Applied Computer Science with a concentration in Back End engineering.
+* Pursuing interests in physics, astronomy, and the intersection of machine learning and computer science between all topics of study, including a deep learning course in the Spring.
+* Learning React to round out my full stack engineering skills.
 
 ## Projects
+* [The PEGASUS Webtool](https://phoenixpegasusgrid.com/)
+* [Social Prescribing](https://app.socialprescribingusa.com/#/)
 * [Exploratory Analysis of NASA's Exoplanet Archive](https://medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51)
-* [Go Join Heavenly Media](https://gjhm.herokuapp.com/)
 * [Predicting on the NASA Meteorite Dataset](https://www.kaggle.com/code/maliabarker/predicting-on-the-nasa-meteorite-dataset)
 * [NASA Meteorite Data Analysis](https://www.kaggle.com/code/maliabarker/nasa-meteorite-data-analysis-and-visualization)
-* [Celestial Countdown](https://celestial-countdown.herokuapp.com/)
+* [Celestial Countdown](http://celestial-calendar.dev.maliabarker.me/)
+* [Go Join Heavenly Media](https://gjhm.herokuapp.com/)
 
 
  **Languages, Frameworks, Databases:**
