@@ -2,21 +2,24 @@
 
 ### I'm Malia Barker, 
 
-I am a senior at Dominican University of California, currently pursuing a bachelor’s degree in Applied Computer Science and aspiring to pursue a PhD in Astronomy/Astrophysics.
+I am a Dominican University of California graduate with a bachelor’s degree in Applied Computer Science. Aspiring to pursue a Ph.D. and complete interdisciplinary research in Computer Science and Astronomy/Astrophysics.
 
 ## Things that I'm currently working on: 
 * Contracting work for NASA to continue work & research I completed as an intern under my mentor Dr. Sarah Peacock.
 * Bachelor's degree in Applied Computer Science with a concentration in Back End engineering.
-* Pursuing interests in physics, astronomy, and the intersection of machine learning and computer science between all topics of study, including a deep learning course in the Spring.
+* Pursuing interests in physics, astronomy, and the intersection of machine learning and computer science between all topics of study, including a deep learning course.
 * Learning React to round out my full stack engineering skills.
 
 ## Projects
 * [The PEGASUS Webtool](https://phoenixpegasusgrid.com/)
+* [Predicting Exoplanet Transit Detection Using Neural Networks](https://medium.com/@maliarosebarker/predicting-exoplanet-transit-detection-using-neural-networks-36c44f620924)
+* [Binary Search Functions and Data Structures in Python Article](https://medium.com/@maliarosebarker/binary-search-functions-and-data-structures-in-python-803ba1c3a)
 * [Social Prescribing](https://app.socialprescribingusa.com/#/)
 * [Exploratory Analysis of NASA's Exoplanet Archive](https://medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51)
 * [Predicting on the NASA Meteorite Dataset](https://www.kaggle.com/code/maliabarker/predicting-on-the-nasa-meteorite-dataset)
 * [NASA Meteorite Data Analysis](https://www.kaggle.com/code/maliabarker/nasa-meteorite-data-analysis-and-visualization)
 * [Celestial Countdown](http://celestial-calendar.dev.maliabarker.me/)
+* [Safe Space](http://safespace.dev.maliabarker.me/)
 * [Go Join Heavenly Media](https://gjhm.herokuapp.com/)
 
 
