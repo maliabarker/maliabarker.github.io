@@ -23,24 +23,24 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            url: 'https://medium.com/@maliarosebarker/tracking-particle-events-from-the-cern-large-hadron-collider-88e5bb2ceea2',
+            title: 'Tracking Particle Events from the CERN Large Hadron Collider',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: 'https://medium.com/@maliarosebarker/predicting-exoplanet-transit-detection-using-neural-networks-36c44f620924',
+            title: 'Predicting Exoplanet Transit Detection Using Neural Networks',
         },
         {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
+            url: 'https://medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51',
+            title: 'An Exploratory Analysis of NASA’s Exoplanet Archive',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
+            url: 'https://medium.com/@maliarosebarker/binary-search-functions-and-data-structures-in-python-803ba1c3a',
+            title: 'Binary Search Functions and Data Structures in Python',
         },
         {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
+            url: 'https://medium.com/@maliarosebarker/creating-a-new-way-to-improve-mental-health-connect-with-the-community-aa412e04e418',
+            title: 'Creating A New Way to Improve Mental Health & Connect With the Community',
         },
     ];
 
