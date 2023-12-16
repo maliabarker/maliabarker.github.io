@@ -11,95 +11,86 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'astronomy']
+            image: 'assets/images/celestial-countdown.png',
+            link: 'https://celestial-countdown.dev.maliabarker.com/',
+            title: 'Celestial Countdown',
+            github: ' github.com/maliabarker/celestial-countdown-refactored',
+            technologies: ['Python', 'Javascript', 'Flask', 'MongoDB', 'GeoPy', 'Beautiful Soup', 'DigitalOcean', 'Caprover'],
+            description: "A countdown to the next visible celestial event. Users can see the three upcoming events, view a calendar of events for the next five years, and change the timezone to adjust the countdown accordingly. Implemented a web scraper to obtain celestial event data and organize it into a CSV file by event type.",
+            categories: ['featured', 'webdev', 'astronomy']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'astronomy']
+            image: 'assets/images/icon.png',
+            link: 'github.com/GeorgeCloud/GJHM',
+            title: 'Go Join Heavenly Media',
+            github: 'github.com/GeorgeCloud/GJHM',
+            technologies: ['Python', 'Flask', 'Flask Login', 'IMDB API', 'Github', 'Heroku'],
+            description: "Managed a team of three engineers over seven sprints and retrospectives to create an application for users to keep track of and share their favorite movies and TV shows. Supported my teammates in developing backend and frontend features when needed and managed any conflicts amongst the team when they arose.",
+            categories: ['webdev']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
-            demo: 'https://www.nagekar.com/mpw',
-            technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'data-science']
+            image: 'assets/images/nea.jpg',
+            link: 'medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51',
+            title: "An Exploratory Analysis of NASA's Exoplanet Archive",
+            github: 'https://colab.research.google.com/drive/1_LmiegU5ePiSGvwlLLkMeLtLP7pXggXE?usp=sharing',
+            technologies: ['Python', 'Numpy', 'Matplotlib', 'Seaborn', 'SkLearn', 'Scipy'],
+            description: "Navigated 121 columns of data and 32,329 points of data to explore five descriptive questions and three inferential questions. Created 25 data visualizations to support conclusions made through analysis, two of which were made with machine learning.",
+            categories: ['featured', 'astronomy', 'data-science']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
-            demo: false,
-            technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['astronomy', 'diy']
+            image: 'assets/images/meteorite.png',
+            link: 'https://www.kaggle.com/code/maliabarker/predicting-on-the-nasa-meteorite-dataset/notebook?scriptVersionId=112702599',
+            title: 'Predicting on the NASA Meteorite Dataset',
+            github: false,
+            technologies: ['Python', 'Numpy', 'Matplotlib', 'Seaborn', 'SkLearn', 'XGBoost'],
+            description: "Created a concise Kaggle notebook detailing classification predictions on the NASA meteorite dataset. Prepared data by sanitizing the dataset and dealing with null values. Ran initial predictions with KNN, CART, NB, LOGREG, FOREST, ADA, and XGB Scikit-Learn classifiers, then ran optimization techniques to obtain better performance scores.",
+            categories: ['featured', 'astronomy', "data-science"]
         },
         {
-            image: 'assets/images/elementary.png',
-            link: 'https://github.com/abhn/Elementary',
-            title: 'Elementary',
-            demo: 'https://elementary-jekyll.github.io/',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
-            categories: ['astronomy']
+            image: 'assets/images/social-prescribing.png',
+            link: 'https://github.com/dfmorse23/socialprescribing',
+            title: 'Social Prescribing',
+            github: 'https://github.com/dfmorse23/socialprescribing',
+            technologies: ['Javascript', 'Node', 'React', 'MaterialUI', 'Firebase', 'Railway'],
+            description: "Collaborated with four engineers and an industry partner to build a search engine for social prescriptions—community-based activities to substitute prescriptions for mental and physical health concerns. Collaborated with an industry designer and completed nine user interviews and tests to maximize the usability, accessibility, and overall aesthetic of the website.",
+            categories: ['webdev']
         },
         {
-            image: 'assets/images/soot-spirits.png',
-            link: 'https://github.com/abhn/Soot-Spirits',
-            title: 'Soot Spirits',
-            demo: 'https://sootspirits.github.io',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
-            categories: ['astronomy']
+            image: 'assets/images/exoplanet-pred.png',
+            link: 'https://medium.com/@maliarosebarker/predicting-exoplanet-transit-detection-using-neural-networks-36c44f620924',
+            title: 'Predicting Exoplanet Transits with Neural Networks',
+            github: 'github.com/maliabarker/exoplanet-detection-model',
+            technologies: ['Python', 'Numpy', 'Pandas', 'Matplotlib', 'Seaborn', 'SkLearn', 'Tensorflow'],
+            description: "Explored light curve data, processed data in preparation for model usage, employed four machine learning models, and built a custom neural network to predict exoplanet detections.",
+            categories: ['featured', 'astronomy', 'data-science']
         },
         {
-            image: 'assets/images/old-lcd.jpg',
-            link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
-            title: 'Reusing Old LCD Panel',
-            demo: false,
-            technologies: ['DIY'],
-            description: "Reusing a dead laptop's LCD panel as a secondary monitor.",
-            categories: ['diy']
+            image: 'assets/images/cern.png',
+            link: 'medium.com/@maliarosebarker/tracking-particle-events-from-the-cern-large-hadron-collider-88e5bb2ceea2',
+            title: 'Tracking Particle Events using Simulated CERN Data',
+            github: 'github.com/maliabarker/track-ml',
+            technologies: ['Python', 'Numpy', 'Pandas', 'Matplotlib', 'Seaborn', 'SkLearn'],
+            description: "Analyzed four CSV files of simulated particle accelerator collision data using 16 visualizations and data analysis to understand data and track objectives. Implemented two semi-supervised and two unsupervised machine learning algorithms to predict tracks of particles within an accelerator using hit data.",
+            categories: ['featured', 'astronomy', 'data-science']
         },
         {
-            image: 'assets/images/nextcloud-enc.png',
-            link: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Encrypted Self-Hosted Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'GnuPG'],
-            description: "Self hosted encrypted cloud setup with Nextcloud and GnuPG.",
-            categories: ['diy', 'data-science']
+            image: 'assets/images/pegasus.png',
+            link: 'https://phoenixpegasusgrid.com/',
+            title: 'The PHOENIX PEGASUS Grid',
+            github: 'https://github.com/maliabarker/euv-spectra-site',
+            technologies: ['Python', 'JavaScript', 'Flask', 'MongoDB', 'AstroPy', 'AstroQuery', 'DigitalOcean', 'Caprover'],
+            description: "An efficient and aesthetic web tool to help users access EUV spectra calculated by our research team.",
+            categories: ['featured', 'astronomy', 'webdev']
         },
         {
-            image: 'assets/images/google-cloud-backup.png',
-            link: 'https://www.nagekar.com/2018/05/encrypted-backup-with-duplicity.html',
-            title: 'Encrypted Backups - Google Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'Duplicity'],
-            description: "Create automated encrypted incremental backups of data. Sync everything securely to Google Cloud.",
-            categories: ['diy', 'data-science']
+            image: 'assets/images/susie.png',
+            link: 'https://pypi.org/project/susie/',
+            title: 'Susie',
+            github: 'https://github.com/BoiseStatePlanetary/susie',
+            technologies: ['Python', 'AstroPy', 'SciPy', 'Numpy', 'MatplotLib'],
+            description: "A Python pip package to access calculations and data visualizations regarding planetary tidal decay using exoplanet transit data.",
+            categories: ['featured', 'webdev', 'astronomy']
         },
-        {
-            image: 'assets/images/pi-cloud.jpg',
-            link: 'https://www.nagekar.com/2016/01/how-to-private-local-cloud-using-raspberrypi.html',
-            title: 'Local Cloud - Raspberry Pi',
-            demo: false,
-            technologies: ['FTP', 'DIY'],
-            description: "Host a local cloud server with a Raspberry Pi and a spare hard disk. Access data instantaneously on any device on the network.",
-            categories: ['diy']
-        }
     ]
 
     let projects = [];
@@ -132,7 +123,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.github ? `<a href="${project.github}">Github</a>` : ''}</p>
                     </article>
 
                                 
