@@ -52,7 +52,7 @@ function blog_posts() {
         
         if(post.tags) {
             tags = post.tags.map(tag => {
-                return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
+                return `<a href="https://medium.com/@maliarosebarker/tags#${tag}">${tag}</a>`
             })
         }
 
@@ -76,11 +76,11 @@ function blog_posts() {
 
     // for the more posts link
     let post_template = `
-    <div class="blog-post more-blogs" onclick="blog_link_click('https://www.nagekar.com');">
+    <div class="blog-post more-blogs" onclick="blog_link_click('https://medium.com/@maliarosebarker');">
 
         <div class="blog-link">
 
-            <h3><a href="https://www.nagekar.com">Visit the blog for more posts</a></h3>            
+            <h3><a href="https://medium.com/@maliarosebarker">Visit the blog for more posts</a></h3>            
 
         </div>
 
