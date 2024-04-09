@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/icon.png',
-            link: 'github.com/GeorgeCloud/GJHM',
+            link: 'https://github.com/GeorgeCloud/GJHM',
             title: 'Go Join Heavenly Media',
             github: 'github.com/GeorgeCloud/GJHM',
             technologies: ['Python', 'Flask', 'Flask Login', 'IMDB API', 'Github', 'Heroku'],
@@ -30,7 +30,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/nea.jpg',
-            link: 'medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51',
+            link: 'https://medium.com/@maliarosebarker/an-exploratory-analysis-of-nasas-exoplanet-archive-f1ea533c8e51',
             title: "An Exploratory Analysis of NASA's Exoplanet Archive",
             github: 'https://colab.research.google.com/drive/1_LmiegU5ePiSGvwlLLkMeLtLP7pXggXE?usp=sharing',
             technologies: ['Python', 'Numpy', 'Matplotlib', 'Seaborn', 'SkLearn', 'Scipy'],
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['webdev']
         },
         {
-            image: 'assets/images/exoplanet-pred.png',
+            image: 'assets/images/exoplanet_pred.png',
             link: 'https://medium.com/@maliarosebarker/predicting-exoplanet-transit-detection-using-neural-networks-36c44f620924',
             title: 'Predicting Exoplanet Transits with Neural Networks',
             github: 'github.com/maliabarker/exoplanet-detection-model',
