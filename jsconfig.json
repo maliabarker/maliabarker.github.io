@@ -1,9 +1,9 @@
-{
-    "typeAcquisition": {
-        "include": [
-            "jquery",
-            "lodash"
-        ]
-    }
+// {
+//     "typeAcquisition": {
+//         "include": [
+//             "jquery",
+//             "lodash"
+//         ]
+//     }
 
-}
+// }

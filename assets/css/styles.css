@@ -1,0 +1,39 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.section-pad {
+  padding: 4rem 0;
+}
+
+@media (min-width: 992px) {
+  .section-pad {
+    padding: 5rem 0;
+  }
+}
+
+.hero-card {
+  border-radius: 1rem;
+}
+
+/* Improve link styles slightly */
+a {
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Make the theme toggle a bit nicer */
+#theme-toggle .theme-icon {
+  font-size: 1rem;
+}
+
+/* Optional: reduce max width for content for readability */
+#about p,
+#research p,
+#contact p {
+  max-width: 60rem;
+}
